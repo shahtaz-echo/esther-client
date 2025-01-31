@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+body {
+  background-color: #11151b;
+  color: #ccc;
+}
+
+.tr {
+  transition: 300ms;
+}
+
+.spinner {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ff7f16;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
